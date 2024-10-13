@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Noto Sans", sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color:  #FF69B4;
+    color: white;
+    height: 15vh;
+}
+
+.sessaoHeader{
+    display: flex;
+    align-items: center;
+    height: 15vh;
+    padding-right: 55%;
+    img{
+        height: 10vh;
+    }
+    h1{
+        font-weight: 300;
+    }
+
+}
+
+nav{
+    width: 30%;
+}
+
+ul{
+    display: flex;
+    justify-content: space-around;
+
+    li{
+        font-size: 1.5rem;
+        font-weight: 300;
+    }
+    a{
+        color: white;
+    }
+}
+
+.maosOutubrorosa{
+    background: #FFD9EC;
+    height: 35vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    img{
+        height: 30vh;
+    }
+    p{
+        font-weight: 500;
+        width: 30%;   
+    }
+}
+
+.caminhadaRosa{
+    background-color:   #FF69B4;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 30vh;
+
+    img{
+        height: 25vh;
+      
+    }
+
+    p{
+        width: 20%;
+    }
+}
+
+.sessaoCuidados{
+    background-color: #FFD9EC;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 35vh;
+
+    img{
+        padding: 0 16px;
+        height: 22vh;
+    }
+}
+.sessaoFotter{
+    background-color: #FF69B4;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    h2{
+        font-size: 1rem;
+        text-align: center;
+        font-weight: 300;
+    }
+    img{
+        padding: 0 16px;
+        height: 64px;
+        
+    }
+}
