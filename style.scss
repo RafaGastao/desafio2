@@ -112,3 +112,60 @@ ul{
         
     }
 }
+@media (max-width: 500px) {
+    header {
+        height: 30vh;
+        flex-direction: column;
+.sessaoHeader{
+            flex-direction: column;
+            padding-right: 0;
+}
+        nav {
+            width: 95%;
+
+            ul {
+                a {
+                    font-size: 22px;
+                }
+            }
+        }
+    }
+
+    .maosOutubrorosa {
+        height: 80vh;
+        flex-direction: column-reverse;
+
+        p {
+            width: 90%;
+            font-size: 20px;
+            text-align: center;
+        }
+    }
+          .caminhadaRosa {
+              height: 80vh;
+              flex-direction: column-reverse;
+
+              p {
+                  width: 90%;
+                  font-size: 20px;
+                  text-align: center;
+              }
+          }
+    .sessaoCuidados {
+        height: 120vh;
+
+    flex-direction: column;
+    img{
+        height: 30vh;
+    }
+
+    }
+    .sessaoFotter {
+        flex-direction: column;
+        height: 45vh;
+
+    
+}
+
+
+}

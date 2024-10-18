@@ -103,4 +103,50 @@ ul a {
 .sessaoFotter img {
   padding: 0 16px;
   height: 64px;
+}
+
+@media (max-width: 500px) {
+  header {
+    height: 30vh;
+    flex-direction: column;
+  }
+  header .sessaoHeader {
+    flex-direction: column;
+    padding-right: 0;
+  }
+  header nav {
+    width: 95%;
+  }
+  header nav ul a {
+    font-size: 22px;
+  }
+  .maosOutubrorosa {
+    height: 80vh;
+    flex-direction: column-reverse;
+  }
+  .maosOutubrorosa p {
+    width: 90%;
+    font-size: 20px;
+    text-align: center;
+  }
+  .caminhadaRosa {
+    height: 80vh;
+    flex-direction: column-reverse;
+  }
+  .caminhadaRosa p {
+    width: 90%;
+    font-size: 20px;
+    text-align: center;
+  }
+  .sessaoCuidados {
+    height: 120vh;
+    flex-direction: column;
+  }
+  .sessaoCuidados img {
+    height: 30vh;
+  }
+  .sessaoFotter {
+    flex-direction: column;
+    height: 45vh;
+  }
 }/*# sourceMappingURL=style.css.map */
